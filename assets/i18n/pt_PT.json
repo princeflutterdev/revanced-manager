@@ -13,6 +13,7 @@
         "settingsTab": "Definições"
     },
     "homeView": {
+        "refreshSuccess": "Atualizado com sucesso",
         "widgetTitle": "Painel de controlo",
         "updatesSubtitle": "Atualizações",
         "patchedSubtitle": "Aplicações Modificadas",
@@ -72,15 +73,17 @@
         "viewTitle": "Selecione uma aplicação",
         "searchBarHint": "Procurar aplicações",
         "storageButton": "Armazenamento",
-        "errorMessage": "Não é possível usar a aplicação selecionada"
+        "errorMessage": "Não é possível usar a aplicação selecionada",
+        "downloadToast": "A função de download ainda não está disponível"
     },
     "patchesSelectorView": {
         "viewTitle": "Selecionar modificações",
         "searchBarHint": "Procurar modificações",
         "doneButton": "Concluído",
-        "recommended": "Recomendadas",
-        "all": "Todas",
+        "default": "Padrão",
+        "defaultTooltip": "Selecionar todos os patches padrão",
         "none": "Nenhuma",
+        "noneTooltip": "Desselecionar todas as modificações",
         "loadPatchesSelection": "Carregar seleção de modificações",
         "noSavedPatches": "Nenhuma correção salva para o aplicativo selecionado.\nPressione \"Concluir\" para salvar a seleção atual.",
         "noPatchesFound": "Nenhuma modificação encontrada para a aplicação selecionada",
@@ -145,11 +148,10 @@
         "exportSectionTitle": "Importar e exportar",
         "aboutLabel": "Sobre",
         "snackbarMessage": "Copiado para a área de transferência",
-        "sentryLabel": "Registo do coletor de erros",
-        "sentryHint": "Enviar registos anónimos para nos ajudar a melhorar o ReVanced Manager",
         "restartAppForChanges": "Reinicia a aplicação para aplicar as alterações",
         "deleteKeystoreLabel": "Excluir keystore",
         "deleteKeystoreHint": "Excluir a keystore usada para assinar a aplicação",
+        "deleteKeystoreDialogText": "Tem certeza que deseja excluir o keystore usado para assinar aplicativos modificados?",
         "deletedKeystore": "Keystore excluída",
         "deleteTempDirLabel": "Apagar arquivos temporários",
         "deleteTempDirHint": "Apagar arquivos temporários não utilizados",
@@ -167,7 +169,17 @@
         "jsonSelectorErrorMessage": "Não é possível usar o arquivo JSON selecionado",
         "deleteLogsLabel": "Eliminar registos",
         "deleteLogsHint": "Exclui registos do manager coletados",
-        "deletedLogs": "Registos excluídos"
+        "deletedLogs": "Registos excluídos",
+        "exportKeystoreLabel": "Exportar keystore",
+        "exportKeystoreHint": "Exportar keystore usado para assinar aplicativos",
+        "exportedKeystore": "Keystore exportada",
+        "noKeystoreExportFileFound": "Nenhuma keystore para exportar",
+        "importKeystoreLabel": "Importar keystore",
+        "importKeystoreHint": "Importar keystore usada para assinar aplicativos",
+        "importedKeystore": "Keystore importada",
+        "keystoreSelectorErrorMessage": "Não é possível usar o arquivo KEYSTORE selecionado",
+        "selectKeystorePassword": "Senha da Keystore",
+        "selectKeystorePasswordHint": "Selecione a senha de keystore usada para assinar o apk"
     },
     "appInfoView": {
         "widgetTitle": "Informações da aplicação",

@@ -13,6 +13,7 @@
         "settingsTab": "Cài đặt"
     },
     "homeView": {
+        "refreshSuccess": "Làm mới thành công",
         "widgetTitle": "Tổng quan",
         "updatesSubtitle": "Các bản cập nhật",
         "patchedSubtitle": "Ứng dụng đã vá",
@@ -72,15 +73,17 @@
         "viewTitle": "Chọn một ứng dụng",
         "searchBarHint": "Tìm kiếm ứng dụng",
         "storageButton": "Lưu trữ",
-        "errorMessage": "Không thể dùng ứng dụng đã chọn"
+        "errorMessage": "Không thể dùng ứng dụng đã chọn",
+        "downloadToast": "Tính năng tải xuống chưa có sẵn"
     },
     "patchesSelectorView": {
         "viewTitle": "Chọn bản vá",
         "searchBarHint": "Tìm bản vá",
         "doneButton": "Hoàn tất",
-        "recommended": "Khuyến nghị",
-        "all": "Tất cả",
+        "default": "Mặc định",
+        "defaultTooltip": "Sự dụng các bản vá mặc định",
         "none": "Không có",
+        "noneTooltip": "Bỏ chọn tất cả bản vá",
         "loadPatchesSelection": "Nạp các bản vá được chọn",
         "noSavedPatches": "Không có bản vá cho ứng dụng được chọn\nNhấn Hoàn tất để lưu lựa chọn hiện tại.",
         "noPatchesFound": "Không tìm thấy bản vá cho ứng dụng đã chọn",
@@ -145,11 +148,10 @@
         "exportSectionTitle": "Nhập và xuất",
         "aboutLabel": "Giới thiệu",
         "snackbarMessage": "Đã sao chép vào khay nhớ tạm",
-        "sentryLabel": "Nhật ký theo dõi",
-        "sentryHint": "Gửi nhật ký ẩn danh để giúp chúng tôi cải thiện ReVanced Manager",
         "restartAppForChanges": "Khởi động lại ứng dụng để áp dụng thay đổi",
         "deleteKeystoreLabel": "Xóa kho khóa",
         "deleteKeystoreHint": "Xóa kho khóa dùng để ký ứng dụng",
+        "deleteKeystoreDialogText": "Bạn có chắc muốn xóa khóa lưu dùng để ký ứng dụng đã vá?",
         "deletedKeystore": "Kho khóa đã xóa",
         "deleteTempDirLabel": "Xóa tệp tạm thời",
         "deleteTempDirHint": "Xóa các tệp tạm thời không sử dụng",
@@ -167,7 +169,17 @@
         "jsonSelectorErrorMessage": "Không thể dùng tệp JSON đã chọn",
         "deleteLogsLabel": "Xóa nhật ký",
         "deleteLogsHint": "Xóa nhật ký quản lý đã thu thập",
-        "deletedLogs": "Đã xóa nhật ký"
+        "deletedLogs": "Đã xóa nhật ký",
+        "exportKeystoreLabel": "Xuất file keystone",
+        "exportKeystoreHint": "Xuất file keystore để ký ứng dụng",
+        "exportedKeystore": "Đã xuất file keystore",
+        "noKeystoreExportFileFound": "Không có keystore nào để xuất",
+        "importKeystoreLabel": "Nhập file keystore",
+        "importKeystoreHint": "Nhập file keystore để ký ứng dụng",
+        "importedKeystore": "File keystore đã được nhập",
+        "keystoreSelectorErrorMessage": "Ko thể sử dụng files KEYSTORE đã sử dụng",
+        "selectKeystorePassword": "Mật khẩu Keystore",
+        "selectKeystorePasswordHint": "Chọn mật khẩu keystore để ký file apk"
     },
     "appInfoView": {
         "widgetTitle": "Thông tin ứng dụng",

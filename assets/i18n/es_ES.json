@@ -13,13 +13,14 @@
         "settingsTab": "Configuración"
     },
     "homeView": {
+        "refreshSuccess": "Actualizado con éxito",
         "widgetTitle": "Panel",
         "updatesSubtitle": "Actualizaciones",
         "patchedSubtitle": "Aplicaciones parcheadas",
         "updatesAvailable": "Actualizaciones disponibles",
         "noUpdates": "No hay actualizaciones disponibles",
         "WIP": "Trabajo en progreso...",
-        "noInstallations": "No hay aplicaciones parcheadas instaladas",
+        "noInstallations": "No tiene aplicaciones parcheadas en su dispositivo",
         "installed": "Instalado",
         "updateDialogTitle": "Actualizar Manager",
         "updateChangelogTitle": "Registro de cambios",
@@ -30,7 +31,7 @@
         "errorDownloadMessage": "No se pudo descargar la actualización",
         "errorInstallMessage": "No se pudo instalar la actualización",
         "noConnection": "No hay conexión a Internet",
-        "updatesDisabled": "La actualización de una app parcheada está deshabilitada. Re-parchea la app de nuevo."
+        "updatesDisabled": "Por ahora no puedes actualizar una app parcheada. Re-parchea la app de nuevo."
     },
     "applicationItem": {
         "patchButton": "Parchear",
@@ -56,7 +57,7 @@
         "noAppsLabel": "No se encontraron aplicaciones",
         "currentVersion": "Versión actual",
         "recommendedVersion": "Versión recomendada",
-        "anyVersion": "cualquiera"
+        "anyVersion": "cualquier versión"
     },
     "patchSelectorCard": {
         "widgetTitle": "Seleccionar parches",
@@ -66,21 +67,23 @@
     },
     "socialMediaCard": {
         "widgetTitle": "Redes sociales",
-        "widgetSubtitle": "¡Estamos en la red!"
+        "widgetSubtitle": "¡Encuéntranos en la red!"
     },
     "appSelectorView": {
         "viewTitle": "Selecciona una aplicación",
         "searchBarHint": "Buscar aplicaciones",
         "storageButton": "Almacenamiento",
-        "errorMessage": "No se puede usar la aplicación seleccionada"
+        "errorMessage": "No se puede usar la aplicación seleccionada",
+        "downloadToast": "La función de descarga aún no está disponible"
     },
     "patchesSelectorView": {
         "viewTitle": "Seleccionar parches",
         "searchBarHint": "Buscar parches",
         "doneButton": "Listo",
-        "recommended": "Recomendados",
-        "all": "Todos",
+        "default": "Predeterminado",
+        "defaultTooltip": "Seleccionar todos los parches predeterminados",
         "none": "Ninguno",
+        "noneTooltip": "Deseleccionar todos los parches",
         "loadPatchesSelection": "Cargar selección de parches",
         "noSavedPatches": "No hay parches guardados para la app seleccionada\nPresione Hecho para guardar la selección actual.",
         "noPatchesFound": "No se encontraron parches para la aplicación seleccionada",
@@ -111,7 +114,7 @@
         "widgetTitle": "Configuración",
         "appearanceSectionTitle": "Apariencia",
         "teamSectionTitle": "Equipo",
-        "infoSectionTitle": "Info",
+        "infoSectionTitle": "Información",
         "advancedSectionTitle": "Avanzado",
         "logsSectionTitle": "Registros",
         "darkThemeLabel": "Modo oscuro",
@@ -122,7 +125,7 @@
         "englishOption": "Inglés",
         "sourcesLabel": "Fuentes",
         "sourcesLabelHint": "Configure sus fuentes personalizadas",
-        "hostRepositoryLabel": "Repositorio API",
+        "hostRepositoryLabel": "Repositorio de la API",
         "orgPatchesLabel": "Organización de los parches",
         "sourcesPatchesLabel": "Fuente de los parches",
         "orgIntegrationsLabel": "Organización de integraciones",
@@ -145,11 +148,10 @@
         "exportSectionTitle": "Importar y Exportar",
         "aboutLabel": "Acerca de",
         "snackbarMessage": "Copiado al portapapeles",
-        "sentryLabel": "Registro Sentry",
-        "sentryHint": "Enviar registros anónimos para ayudarnos a mejorar ReVanced Manager",
         "restartAppForChanges": "Reinicie la app para aplicar los cambios",
         "deleteKeystoreLabel": "Eliminar keystore",
         "deleteKeystoreHint": "Eliminar el keystore usado para firmar la app",
+        "deleteKeystoreDialogText": "¿Está seguro que desea eliminar el almacén de claves usado para firmar aplicaciones parcheadas?",
         "deletedKeystore": "Keystore eliminado",
         "deleteTempDirLabel": "Borrar archivos temporales",
         "deleteTempDirHint": "Eliminar archivos temporales no utilizados",
@@ -167,7 +169,17 @@
         "jsonSelectorErrorMessage": "No se puede utilizar el archivo JSON seleccionado",
         "deleteLogsLabel": "Eliminar registros",
         "deleteLogsHint": "Borrar los registros del Manager recopilados",
-        "deletedLogs": "Registros eliminados"
+        "deletedLogs": "Registros eliminados",
+        "exportKeystoreLabel": "Exportar Keystore",
+        "exportKeystoreHint": "Exportar almacén de claves usado para firmar apps",
+        "exportedKeystore": "Almacén de claves exportado",
+        "noKeystoreExportFileFound": "No hay almacén de claves para exportar",
+        "importKeystoreLabel": "Importar almacén de claves",
+        "importKeystoreHint": "Importar almacén de teclas usado para firmar apps",
+        "importedKeystore": "Almacén de claves importada",
+        "keystoreSelectorErrorMessage": "No se puede utilizar el archivo KEYSTORE seleccionado",
+        "selectKeystorePassword": "Contraseña del almacén de claves",
+        "selectKeystorePasswordHint": "Seleccione la contraseña del almacén de claves utilizada para firmar el apk"
     },
     "appInfoView": {
         "widgetTitle": "Información de la app",
@@ -191,7 +203,7 @@
     },
     "contributorsView": {
         "widgetTitle": "Contribuidores",
-        "patcherContributors": "Contribuidores de los parches",
+        "patcherContributors": "Contribuidores del parcheador",
         "patchesContributors": "Contribuidores de los parches",
         "integrationsContributors": "Contribuidores de las integraciones",
         "cliContributors": "Contribuidores del CLI",

@@ -13,7 +13,7 @@
         "settingsTab": "Settings"
     },
     "homeView": {
-        "refreshSuccess": "Refresh successfully",
+        "refreshSuccess": "Actualisation réussie",
         "widgetTitle": "Dashboard",
         "updatesSubtitle": "Updates",
         "patchedSubtitle": "Patched applications",
@@ -74,16 +74,16 @@
         "searchBarHint": "Search applications",
         "storageButton": "Storage",
         "errorMessage": "Unable to use selected application",
-        "downloadToast": "Download function is not available yet"
+        "downloadToast": "La possibilité de télécharger n'est pas encore disponible"
     },
     "patchesSelectorView": {
         "viewTitle": "Select patches",
         "searchBarHint": "Search patches",
         "doneButton": "Done",
-        "default": "Default",
-        "defaultTooltip": "Select all default patches",
+        "default": "Par défaut",
+        "defaultTooltip": "Sélectionner tous les patches par défaut",
         "none": "None",
-        "noneTooltip": "Deselect all patches",
+        "noneTooltip": "Déselectionner tous les patches",
         "loadPatchesSelection": "Load patches selection",
         "noSavedPatches": "No saved patches for the selected app.\nPress Done to save current selection.",
         "noPatchesFound": "No patches found for the selected app",
@@ -170,16 +170,16 @@
         "deleteLogsLabel": "Delete logs",
         "deleteLogsHint": "Delete collected manager logs",
         "deletedLogs": "Logs deleted",
-        "exportKeystoreLabel": "Export keystore",
-        "exportKeystoreHint": "Export keystore used to sign apps",
-        "exportedKeystore": "Keystore exported",
-        "noKeystoreExportFileFound": "No keystore to export",
-        "importKeystoreLabel": "Import keystore",
-        "importKeystoreHint": "Import keystore used to sign apps",
-        "importedKeystore": "Keystore imported",
-        "keystoreSelectorErrorMessage": "Unable to use selected KEYSTORE file",
-        "selectKeystorePassword": "Keystore Password",
-        "selectKeystorePasswordHint": "Select keystore password used to sign the apk"
+        "exportKeystoreLabel": "Exporter le keystore",
+        "exportKeystoreHint": "Exporter le keystore utilisé pour signer les applis",
+        "exportedKeystore": "Keystore exporté",
+        "noKeystoreExportFileFound": "Aucun keystore à exporter",
+        "importKeystoreLabel": "Importer un keystore",
+        "importKeystoreHint": "Importer un keystore utilisé pour signer les applis",
+        "importedKeystore": "Keystore importé",
+        "keystoreSelectorErrorMessage": "Impossible d'utiliser le fichier KEYSTORE sélectionné",
+        "selectKeystorePassword": "Mot de passe du keystore",
+        "selectKeystorePasswordHint": "Sélectionner un mot de passe du keystore utilisé pour signer le apk"
     },
     "appInfoView": {
         "widgetTitle": "App info",
